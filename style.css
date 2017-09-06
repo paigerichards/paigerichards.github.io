@@ -339,7 +339,12 @@ div.skills img{
   .projects, .concepts, .coming {
     padding: 0px;
   }
-
+  .coming ul li {
+    padding-left: 5px;
+  }
+  .ul {
+    padding-left: 15px !important;
+  }
 }
 /*folio*/
 .info h2, .info h3 {
