@@ -336,14 +336,20 @@ div.skills img{
   ul {
     padding-left: 0px !important;
   }
+  .projects, .concepts, .coming {
+    padding: 0px;
+  }
+  .coming ul li {
+    padding-left: 10px;
+  }
 }
 /*folio*/
 .info h2, .info h3 {
   padding-left: 10px;
 }
-/*.projects, .concepts, .coming {
+.projects, .concepts, .coming {
   padding: 20px;
-}*/
+}
 .project {
   width: 90%;
   text-align: left;
