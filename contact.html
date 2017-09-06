@@ -1,0 +1,60 @@
+<html class="stars">
+  <head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link type="text/css" rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+   <title>Contact - Paige Richards</title>
+ </head>
+
+  <body class="container twinkling">
+    <main class="home">
+      <div class="my-info-header s-header">
+      <h1 tabindex="0"> Paige Richards </h1>
+        <h2 tabindex="0">Web Developer &amp; Web Designer </h2>
+          <div id="img">
+            <a href="https://github.com/paigerichards" tabindex="0" ><img src="images/github.png" alt="github"></a>
+            <a href="https://instagram.com/enchant.creative/" tabindex="0"><img src="images/instagram.jpg" alt="instagram"></a>
+          <a href="https://www.linkedin.com/in/paige-richards-6b9022140/" tabindex="0" ><img src="images/linkedin.png" alt="linkedin"></a>
+        </div>
+        <hr class="fancy">
+      <ul class="top">
+        <li><h3>Contact</h3></li>
+      <li>
+          <a class="x" href="index.html" style="cursor:pointer" tabindex="0" >X</a>
+        </li>
+      </ul>
+    </div>
+
+
+      <section class="content">
+        <form method="POST" id="contact">
+          <ul class="form">
+          <li> <input type="text" name="Name" placeholder="Your Name" tabindex="0"></li>
+
+                <li>
+                    <select name="Subject" class="subject" tabindex="0">
+                            <option value="Subject" tabindex="0">Please Choose a Subject </option>
+                            <option value="General" tabindex="0"> General Enquiry</option>
+                            <option value="Intrest" tabindex="0">Intrested in a Website Built</option>
+                            <option value="Employment" tabindex="0">Employment Opportunity</option>
+                            <option value="Other" tabindex="0">Other</option>
+                      </select>
+                </li>
+
+              <li><input type="text" name="Email" placeholder="Your Email" tabindex="0"></li>
+
+              <li><input type="text" name="Number" pattern="[0-9.]+" placeholder="Your Contact Number" tabindex="0"></li>
+
+              <li><textarea id="message" rows="12" cols="26" name="Message" placeholder="Type your message here..." tabindex="0"></textarea> </li>
+
+                <li><button type="submit" id="send" style="cursor:pointer" onkeypress="thankyou.html" tabindex="0" >SEND</button></li>
+            </ul>
+       </form>
+       </section>
+    </main>
+  </body>
+  </html>
