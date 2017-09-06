@@ -403,6 +403,10 @@ div.skills img{
 .col-info {
   margin-top: 20px;
 }
+.info .projects {
+  height: auto;
+  padding-bottom: 160px;
+}
 @media only screen and (max-width: 736px) {
   .info {
     width: 100%;
@@ -433,5 +437,9 @@ div.skills img{
  }
  .coming .col-md-12 ul{
    padding-left: 10px !important;
+ }
+ .info .projects {
+   height: auto;
+   padding-bottom: 40px;
  }
 }
