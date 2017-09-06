@@ -326,20 +326,24 @@ div.skills img{
   .info {
     width: 100%;
   }
+  .folio {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .images img {
     display: block !important;
   }
-  .project p {
-    text-align: center;
+  ul {
+    padding-left: 0px !important;
   }
 }
 /*folio*/
 .info h2, .info h3 {
   padding-left: 10px;
 }
-.projects, .concepts, .coming {
+/*.projects, .concepts, .coming {
   padding: 20px;
-}
+}*/
 .project {
   width: 90%;
   text-align: left;
